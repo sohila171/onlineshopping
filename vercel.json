@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "_site"
+      }
+    },
+    {
+      "src": "_config.yml",
+      "use": "jekyll"
+    }
+  ]
+}
